@@ -1,7 +1,7 @@
 # Use osixia/light-baseimage
 # sources: https://github.com/osixia/docker-light-baseimage
-FROM statoilfuelretail/base-image-with-dropwizard:1.1.1
-MAINTAINER Kjella 
+FROM statoilfuelretail/base-image-with-dropwizard:0.9.9
+MAINTAINER kjella 
 
 # Add openldap user and group first to make sure their IDs get assigned consistently, regardless of whatever dependencies get added
 RUN groupadd -r openldap && useradd -r -g openldap openldap
