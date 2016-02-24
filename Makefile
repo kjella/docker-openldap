@@ -1,4 +1,4 @@
-NAME = statoilfuelretail/openldap
+NAME = kjella/openldap
 VERSION = 1.1.1
 
 .PHONY: all build build-nocache test tag_latest release
